@@ -1,0 +1,7 @@
+{
+  "realm": "myrealm",
+  "bearer-only": true,
+  "auth-server-url": "${env.KC_URL:http://localhost:8080}",
+  "resource": "myclient",
+  "verify-token-audience": false
+}
